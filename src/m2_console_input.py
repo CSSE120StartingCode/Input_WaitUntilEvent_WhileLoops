@@ -1,8 +1,9 @@
 """
 This module demonstrates lets you practice INPUT from the CONSOLE.
 
-Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+uthors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
+         PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
@@ -20,19 +21,18 @@ def double_a_float():
     What goes out: Nothing (i.e. None)
     Side effects:
        a. Prompts the user for and inputs a floating point number.
-       b. Prints the input number, doubled (i.e., multiplied by 2).
-    No input validation is required.  Nothing else should be printed.
+       b. Prints the input number, but doubled (i.e., multiplied by 2).
+    No input validation is required.  ** Nothing else should be printed. **
 
     Example:
-    Here is a sample run, where the user input is to the right
-    of the colon:
+    Here is a sample run, where the user input is to the right of the colon:
          Enter a number: -3.14
          -6.28
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 2. Implement and test this function.
     #   The testing code is already written for you (above).
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
 def print_an_integer_many_times():
@@ -41,13 +41,12 @@ def print_an_integer_many_times():
     What goes out: Nothing (i.e. None)
     Side effects:
        a. Prompts the user for and inputs a positive integer.
-       b. Prints the input integer, doubled (i.e., multiplied by 2),
+       b. Prints the input integer, but doubled (i.e., multiplied by 2),
           the input number of times.  (See the example.)
-    No input validation is required.  Nothing else should be printed.
+    No input validation is required.  ** Nothing else should be printed. **
 
     Example:
-    Here are two sample runs, where the user input is to the right
-    of the colon:
+    Here are two sample runs, where user input is to the right of the colon:
          Enter an integer: 3
          6
          6
@@ -60,10 +59,10 @@ def print_an_integer_many_times():
          10
          10
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 3. Implement and test this function.
     #   The testing code is already written for you (above).
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
 def print_an_integer_many_times_on_one_row():
@@ -79,13 +78,13 @@ def print_an_integer_many_times_on_one_row():
          Enter an integer: 5
          1010101010
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 4. Implement and test this function.
     #   The testing code is already written for you (above).
-    #
-    # HINT: One way to print on a SINGLE line is to build up a string
-    #       and then print that (single) string.
-    # ------------------------------------------------------------------
+    #  __
+    #  HINT: One way to print on a SINGLE line is to build up a string
+    #        and then print that (single) string.
+    # -------------------------------------------------------------------------
 
 
 def input_it_all():
@@ -102,7 +101,7 @@ def input_it_all():
         a. The square root of the floating point number,
            repeated the input integer number of times.
         b. The string, repeated the input integer number of times.
-      No input validation is required.  Nothing else should be printed.
+      No input validation is required.  ** Nothing else should be printed. **
 
     Example:
     Here is a sample run, where the user input is to the right
@@ -119,13 +118,16 @@ def input_it_all():
          Peace & Love.
          Peace & Love.
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 5. Implement and test this function.
     #   The testing code is already written for you (above).
-    # ------------------------------------------------------------------
+    #  __
+    #  HINT: If you add an  import math   statement, put it at the BEGINNING
+    #        of this module, NOT ** INSIDE ** the definition of this function.
+    # -------------------------------------------------------------------------
 
 
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 main()
