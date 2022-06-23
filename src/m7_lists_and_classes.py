@@ -15,13 +15,6 @@ from typing import List
 import testing_helper
 
 
-# -----------------------------------------------------------------------------
-# TODO: 2. Watch the VIDEO for this module listed in the Follow-Me section
-#  of the Preparation for this session.  It introduces the ConceptMap class
-#  that you will implement in this module.
-#    After you have watched that video, mark this _TODO_ as DONE.
-# -----------------------------------------------------------------------------
-
 ###############################################################################
 # The Point and Circle classes are already implemented.
 ###############################################################################
@@ -97,9 +90,8 @@ class ConceptMap:
                returns  11 + 14 + 10 + 30 + 50, which is 115.
         """
         # ---------------------------------------------------------------------
-        # TODO: 3. Follow along with the video to implement and test this
-        #   method.  Tests have been written for you (below) and include
-        #   the example in the above doc-string.
+        # TODO: 2. Implement and test this method.  Tests have been written
+        #   for you (below) and include the example in the above doc-string.
         # ---------------------------------------------------------------------
 
     def number_of_small_circles(self, threshold):
@@ -121,7 +113,7 @@ class ConceptMap:
             concept_map1.number_of_small_circles(4)   returns  0
         """
         # ---------------------------------------------------------------------
-        # TODO: 4. Implement and test this method.  Tests have been written
+        # TODO: 3. Implement and test this method.  Tests have been written
         #   for you (below) and include the example in the above doc-string.
         # ---------------------------------------------------------------------
 
@@ -147,7 +139,7 @@ class ConceptMap:
                which is 71259750.
         """
         # ---------------------------------------------------------------------
-        # TODO: 5. Implement and test this method.  Tests have been written
+        # TODO: 4. Implement and test this method.  Tests have been written
         #   for you (below) and include the example in the above doc-string.
         # ---------------------------------------------------------------------
 
@@ -168,9 +160,8 @@ class ConceptMap:
                returns  1 + 3 + 4,   which is 8
         """
         # ---------------------------------------------------------------------
-        # TODO: 3. Follow along with the video to implement and test this
-        #   method.  Tests have been written for you (below) and include
-        #   the example in the above doc-string.
+        # TODO: 5. Implement and test this method.  Tests have been written
+        #   for you (below) and include the example in the above doc-string.
         # ---------------------------------------------------------------------
 
     def product_of_some_radii(self):
@@ -220,14 +211,9 @@ class ConceptMap:
               [ 3  +  1  +  8.94  +  16.28  +  42.72], which is about 71.943111.
         """
         # ---------------------------------------------------------------------
-        # TODO: 6. Implement and test this method.  Tests have been written
+        # TODO: 7. Implement and test this method.  Tests have been written
         #   for you (below) and include the example in the above doc-string.
         # ---------------------------------------------------------------------
-        total = 0
-        for k in range(len(self.circles)):
-            print(self.circles[k].center.distance_from(point))
-            total = total + self.circles[k].center.distance_from(point)
-        return total
 
 
 ###############################################################################
